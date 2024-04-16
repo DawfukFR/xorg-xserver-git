@@ -1,5 +1,5 @@
 pkgbase = xorg-server-git
-	pkgver = 21.1.99.1.r256.g6907b6ea2
+	pkgver = 21.1.13.r0.gbe2767845
 	pkgrel = 1
 	url = https://xorg.freedesktop.org
 	arch = x86_64
@@ -36,8 +36,8 @@ pkgbase = xorg-server-git
 	makedepends = systemd
 	makedepends = meson
 	makedepends = git
-	options = debug
-	source = git+https://gitlab.freedesktop.org/xorg/xserver.git
+	options = !debug
+	source = git+https://gitlab.freedesktop.org/xorg/xserver.git#branch=server-21.1-branch
 	source = xvfb-run
 	source = xvfb-run.1
 	sha512sums = SKIP
